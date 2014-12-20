@@ -15,6 +15,7 @@ div {
 
 .wrap:after {
 	content: ".";
+	height: 0px;
 	clear:both;
 	display: block;
 	visibility: hidden;
