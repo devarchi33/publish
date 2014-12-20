@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+body {
+	height: 1500px;
+}
+
+p {
+	border: 1px solid black;
+}
+
+.font {
+	color: red;
+	font-family: "맑은 고딕";
+	font-weight: bold;
+	font-size: 30px; border : 1px solid black;
+	text-decoration: underline;
+	border: 1px solid black;
+}
+
+span {
+	font-size: 50px;
+	color: blue;
+	border: 3px dotted purple;
+}
+
+.tc {
+	text-align: center;
+}
+
+.pb1 {
+	position: static; /*디폴트*/
+	position: absolute;
+	/*
+	position: fixed;
+	position: relative;
+	*/
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid #8ED5ED;
+	top: 300px; 
+	left: 20px;
+	background: #8ED5ED;
+	z-index: 3;
+}
+
+.pb2 {
+	position: static; /*디폴트*/
+	position: absolute;
+	/*
+	position: fixed;
+	position: relative;
+	*/
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid #F5CE72;
+	top: 350px; 
+	left: 200px;
+	background: #F5CE72;
+	z-index: 2;
+}
+
+.pb3 {
+	position: static; /*디폴트*/
+	position: absolute;
+	/*
+	position: fixed;
+	position: relative;
+	*/
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid #D5898D;
+	top: 400px; 
+	left: 400px;
+	background: #D5898D;
+	z-index: 1;
+}
