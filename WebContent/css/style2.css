@@ -7,6 +7,12 @@
 	float: left;
 }
 
+/*공간을 차지 하지 않는 가상의 박스를 만들어서 float 해지함.*/
+.clear {
+	clear: both;
+	height: 0;
+}
+
 .box3 {
 	width: 300px;
 	height: 500px;
