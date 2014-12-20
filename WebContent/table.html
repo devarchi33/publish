@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>웹표준 테이블 연습</title>
+<link rel="stylesheet" href="css/table.css" />
+</head>
+<body>
+	<table cellspacing="0" cellpadding="0" border="0" width="500"
+		summary="이 테이블은 기말고사 점수표 입니다.">
+		<caption>기말고사 점수표</caption>
+		<colgroup>
+			<col style="width:180px" />
+			<col style="width:300px" />
+			<col style="width:300px" />
+			<col style="width:300px" />
+		</colgroup>
+		<tr>
+			<td class="a">항목</td>
+			<th>국어</th>
+			<th>영어</th>
+			<th>수학</th>
+		</tr>
+		<tr>
+			<th rowspan="2">기말고사 점수</th>
+			<td>60</td>
+			<td>70</td>
+			<td>75</td>
+		</tr>
+			<tr>
+			<td>89</td>
+			<td>83</td>
+			<td>92</td>
+		</tr>
+	</table>
+</body>
+</html>
