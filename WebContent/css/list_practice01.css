@@ -1,0 +1,34 @@
+@CHARSET "UTF-8" ";
+
+body {
+	background-color: #D5898D;
+	margin: 0;
+}
+
+h1 {
+	font-size: 13px;
+	/*영문 서체를 적을땐 쌍따옴표 없이 적어도 됨*/
+	font-family: "맑은 고딕";
+}
+
+.time {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.time li {
+	border: 1px solid gray;
+	float: left;
+	margin-right: 5px;
+	width: 40px;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px 0 10px 0;
+}
+
+.news li{	
+	font-size: 12px;
+	margin-bottom: 10px;
+}

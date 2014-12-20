@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+}
+
+ol {
+	margin: 0;
+	list-style: none;
+	/**** overflow:hidden ****
+	내부태그에만 float를 주었을 때 
+	상위 태그에 적용하면 높이가 생김*/
+	overflow: hidden;
+	border: 1px solid red;
+}
+
+ol li {
+	border: 1px solid black;
+	float: left;
+	margin-left: 10px; 
+}
+
+dl {
+	clear: both;
+}
+
+
